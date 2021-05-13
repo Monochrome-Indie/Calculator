@@ -1,6 +1,6 @@
 
-def main():
-  query = input("> ")
+def main(input):
+  query = input
 
 
   # Modes
@@ -35,4 +35,5 @@ def main():
     print(int(nums[0]) * int(nums[1]))
 
 while True:
-  main()
+
+  main(input("> "))
